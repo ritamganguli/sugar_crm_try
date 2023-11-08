@@ -1,0 +1,62 @@
+version: "0.1"
+user: shubhamr
+key: dl8Y8as59i1YyGZZUeLF897aCFvIDmaKkUU1e6RgBmlgMLIIhh
+testSuites: []
+pre: [sudo apt-get install jq, ls]
+preDirectives:
+    commands: [sudo apt-get install jq, ls]
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+env:
+    TARGET_OS: LINUX
+runson: linux
+autosplit: true
+concurrency: 1
+testDiscovery:
+    autosubset: true
+    command: echo "Test Runner"
+    mode: dynamic
+    type: raw
+testRunnerCommand: chmod +x url.sh;./url.sh -t c8ab8af7-6e96-4d6f-b2be-81db3fdb6a99 -gi 135664 --url "https://lambdatest.com"
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+shell: bash
+maxRetries: 1
+jobID: ea93b714-c48f-4c34-b2b5-bdb6d685f886
+mergeArtifacts: true
+codeDirectory: Sugar_Crm_POC
+framework:
+    name: ""
+    flags: []
+    discoveryFlags: []
+    discoveryType: ""
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: false
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+    baseCommand: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+sourcePayload:
+    verifySSL: true
+collectLocalGitData: true
+scenarioCommandStatusOnly: true
+dynamicAllocation: false
+appium: false

@@ -1,0 +1,7 @@
+scp -r url_input.sh ubuntu@34.212.109.10:/home/ubuntu
+ssh ubuntu@34.212.109.10 --> Login into VM
+view - cat
+edit - vim
+cd ~
+chmod +x url_input.sh
+./url_input.sh -t c8ab8af7-6e96-4d6f-b2be-81db3fdb6a99 -gi 135664 --url "https://lambdatest.com"

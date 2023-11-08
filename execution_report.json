@@ -1,0 +1,50 @@
+{
+  "id": 2412255,
+  "type": "EXECUTION",
+  "triggerType": "INTERNAL_API",
+  "snapshotId": 525847,
+  "goalId": 135664,
+  "submitDate": 1696405705629,
+  "startDate": 1696405705783,
+  "endDate": 1696405708214,
+  "status": "FINISHED",
+  "duration": 2431,
+  "meta": {
+    "valid": false,
+    "testSuiteIds": [
+      7902489
+    ],
+    "kind": "EXECUTION",
+    "executionRequest": {
+      "suiteIds": []
+    }
+  },
+  "tags": [],
+  "launchedBy": 16081,
+  "launchedByUser": {
+    "userId": 16081,
+    "email": "shahidk@lambdatest.com",
+    "name": "Shahid Ali Khan",
+    "active": true
+  },
+  "journeyStatistics": {
+    "countPerOutcome": {
+      "NOT_REACHED": 0,
+      "PASS": 1,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 0,
+      "RUNNING": 0
+    },
+    "totalCount": 1,
+    "progress": 1.0,
+    "outcome": "PASS"
+  },
+  "progress": 1.0,
+  "successfulTestExecutions": 1,
+  "skippedTestExecutions": 0,
+  "failedTestExecutions": 0,
+  "outcome": "PASS",
+  "totalTestExecutions": 1,
+  "notReachedTestExecutions": 0
+}

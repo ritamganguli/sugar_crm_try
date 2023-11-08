@@ -1,0 +1,29 @@
+version: 0.1
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+shell: bash
+runson: linux
+
+autosplit: true
+retryOnFailure: false
+
+maxRetries: 1
+concurrency: 1
+
+env:
+#  PAT: ${{ .secrets.testKey }}
+ TARGET_OS: LINUX
+pre:
+  - sudo apt-get install jq
+
+mergeArtifacts: true
+
+
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command: echo "Test Runner"
+
+testRunnerCommand: chmod +x ritam.sh;./ritam.sh -t c8ab8af7-6e96-4d6f-b2be-81db3fdb6a99 --goal_id 135664
+

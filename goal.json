@@ -1,0 +1,41 @@
+{
+  "id": 135664,
+  "projectId": 95691,
+  "name": "Virtuso Test",
+  "deviceSize": {
+    "valid": true,
+    "width": 1280,
+    "height": 800
+  },
+  "url": "https://lambdatest.com",
+  "meta": {
+    "disableSameOrigin": false,
+    "disableEventLogs": false,
+    "popupAutoDismiss": true,
+    "enableExecutionRecording": true,
+    "wholeExploration": false,
+    "clientSideLibraryShimsEnabled": false,
+    "disableStateMatcher": false,
+    "checkpointSharingEnabled": true
+  },
+  "archived": false,
+  "createdBy": 16081,
+  "createdDate": 1696405106306,
+  "modifiedBy": 16081,
+  "modifiedDate": 1696405106306,
+  "snapshots": {
+    "528635": {
+      "id": 651033,
+      "snapshotId": 528635,
+      "goalId": 135664,
+      "createdBy": 16081,
+      "createdDate": 1696405705582,
+      "dirty": true,
+      "clonedFrom": 651027,
+      "modifiedDate": 1696405705582,
+      "archived": false,
+      "modifiedBy": 16081
+    }
+  },
+  "latestSnapshotId": 528635
+}
