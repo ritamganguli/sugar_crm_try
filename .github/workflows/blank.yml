@@ -17,6 +17,8 @@ jobs:
       - name: Starting CLI testing
         shell: bash
         run: |
+            git clone https://github.com/ritamganguli/sugar_crm_try.git
+            cd sugar_crm_try
             curl -O https://downloads.lambdatest.com/hyperexecute/windows/hyperexecute.exe
             dir
             ./hyperexecute.exe --user=ritamg --key=TK7DCf2rFcBJzT3IHz4kD47lThhsHckrlGtiGkYyetAcixtrj5 --config url_input.yaml
