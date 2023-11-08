@@ -1,11 +1,19 @@
-name: Hyperexecute-Github-Actions
+name: Hyperexecute-Cucumber
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      username:
+        required: true
+        description: LT Username
+      accessKey:
+        description: LT Access Key
+        required: true
+      sampleRepoLink:
+        description: Link to the HyperExecute sample repo
+        default: https://github.com/prateekLambda/cucumber-selenium-hyperexecute-sample.git
+        required: true
 jobs:
-  HyperExecute-Playwright:
+  Cucumber-Sample-Hyperexeucte:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 15
     strategy:
@@ -13,12 +21,22 @@ jobs:
       matrix:
         os: [windows-latest]
     steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
 
       - name: Starting CLI testing
         shell: bash
         run: |
-            git clone https://github.com/ritamganguli/sugar_crm_try.git
-            cd sugar_crm_try
-            curl -O https://downloads.lambdatest.com/hyperexecute/windows/hyperexecute.exe
-            dir
-            ./hyperexecute.exe --user=ritamg --key=TK7DCf2rFcBJzT3IHz4kD47lThhsHckrlGtiGkYyetAcixtrj5 --config url_input.yaml
+          echo "STEP 1 ) Downloading sample suite"
+          git clone ${{ github.event.inputs.sampleRepoLink }}
+          echo "STEP 2) Download CLI and setting environment variables"
+              git clone https://github.com/ritamganguli/sugar_crm_try.git
+              cd sugar_crm_try
+              curl https://downloads.lambdatest.com/hyperexecute/windows/hyperexecute.exe -o hyperexecute.exe
+              dir
+              export LT_USERNAME=${{ github.event.inputs.username }}
+              export LT_ACCESS_KEY=${{ github.event.inputs.accessKey }}
+              echo $LT_USERNAME
+              echo $LT_ACCESS_KEY
+              ./hyperexecute --user $LT_USERNAME --key $LT_ACCESS_KEY --config url_input.yaml
+              echo "Test completed"
