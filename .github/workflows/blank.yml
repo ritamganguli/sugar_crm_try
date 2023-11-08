@@ -19,5 +19,4 @@ jobs:
       - name: Starting CLI testing
         shell: bash
         run: |
-          ls
-          ./hyperexecute --user=ritamg --key=TK7DCf2rFcBJzT3IHz4kD47lThhsHckrlGtiGkYyetAcixtrj5 --config url_input.yaml
+            ./hyperexecute --user=ritamg --key=TK7DCf2rFcBJzT3IHz4kD47lThhsHckrlGtiGkYyetAcixtrj5 --config url_input.yaml
