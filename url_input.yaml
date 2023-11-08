@@ -24,5 +24,5 @@ testDiscovery:
   mode: dynamic
   command: echo "Test Runner"
 
-testRunnerCommand: chmod +x url.sh && url.sh -t c8ab8af7-6e96-4d6f-b2be-81db3fdb6a99 -gi 135664 --url "https://lambdatest.com"
+testRunnerCommand: chmod +x url.sh && pwd && url.sh -t c8ab8af7-6e96-4d6f-b2be-81db3fdb6a99 -gi 135664 --url "https://lambdatest.com"
 
