@@ -1,6 +1,6 @@
 version: "0.1"
-user: shubhamr
-key: dl8Y8as59i1YyGZZUeLF897aCFvIDmaKkUU1e6RgBmlgMLIIhh
+user: ritamg
+key: TK7DCf2rFcBJzT3IHz4kD47lThhsHckrlGtiGkYyetAcixtrj5
 testSuites: []
 pre: [sudo apt-get install jq, ls]
 preDirectives:
@@ -26,11 +26,10 @@ testRunnerCommand: chmod +x url.sh;./url.sh -t c8ab8af7-6e96-4d6f-b2be-81db3fdb6
 globalTimeout: 90
 testSuiteTimeout: 90
 testSuiteStep: 90
-shell: bash
 maxRetries: 1
-jobID: ea93b714-c48f-4c34-b2b5-bdb6d685f886
+jobID: eef98727-9aae-471a-add0-b044f248f794
 mergeArtifacts: true
-codeDirectory: Sugar_Crm_POC
+codeDirectory: Sugar_Crm_POC-main
 framework:
     name: ""
     flags: []

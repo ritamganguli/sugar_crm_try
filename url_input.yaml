@@ -2,7 +2,6 @@ version: 0.1
 globalTimeout: 90
 testSuiteTimeout: 90
 testSuiteStep: 90
-shell: bash
 runson: linux
 
 autosplit: true
@@ -16,7 +15,7 @@ env:
  TARGET_OS: LINUX
 pre:
   - sudo apt-get install jq
-  - ls
+  - ls 
 
 mergeArtifacts: true
 scenarioCommandStatusOnly: true

@@ -936,265 +936,46 @@
 {"level":"info","time":"2023-11-08T20:38:42.153+0530","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Test Execution Time:                  52s"}
 {"level":"info","time":"2023-11-08T20:38:42.154+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c86149d0-8334-4567-8d29-82776c6d7461\n"}
 {"level":"debug","time":"2023-11-08T20:38:42.155+0530","caller":"cmd/bin.go:257","msg":"main: all goroutines have finished."}
-{"level":"debug","time":"2023-11-08T21:49:01.188+0530","caller":"cmd/bin.go:97","msg":"cli os: windows, cli arch: amd64"}
-{"level":"debug","time":"2023-11-08T21:49:02.176+0530","caller":"cmd/bin.go:105","msg":"Upstream version: {Name: Min:0.2.119 Max:0.2.119} "}
-{"level":"warn","time":"2023-11-08T21:49:02.180+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"warn","time":"2023-11-08T21:49:02.182+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"debug","time":"2023-11-08T21:49:04.332+0530","caller":"core/lifecycle.go:101","msg":"Setting environment"}
-{"level":"debug","time":"2023-11-08T21:49:04.334+0530","caller":"core/lifecycle.go:104","msg":"Parsing config"}
-{"level":"debug","time":"2023-11-08T21:49:04.335+0530","caller":"yamlconfigmanager/setup.go:404","msg":"Custom location for .hyperexecute.yaml specified. Using: galdi.yaml"}
-{"level":"error","time":"2023-11-08T21:49:04.336+0530","caller":"core/lifecycle.go:109","msg":"2023-11-08T21:49:01+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location galdi.yaml"}
-{"level":"debug","time":"2023-11-08T21:49:04.336+0530","caller":"cmd/bin.go:297","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location galdi.yaml"}
-{"level":"debug","time":"2023-11-08T21:49:22.634+0530","caller":"cmd/bin.go:97","msg":"cli os: windows, cli arch: amd64"}
-{"level":"debug","time":"2023-11-08T21:49:23.090+0530","caller":"cmd/bin.go:105","msg":"Upstream version: {Name: Min:0.2.119 Max:0.2.119} "}
-{"level":"warn","time":"2023-11-08T21:49:23.092+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"warn","time":"2023-11-08T21:49:23.094+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"debug","time":"2023-11-08T21:49:25.314+0530","caller":"core/lifecycle.go:101","msg":"Setting environment"}
-{"level":"debug","time":"2023-11-08T21:49:25.314+0530","caller":"core/lifecycle.go:104","msg":"Parsing config"}
-{"level":"debug","time":"2023-11-08T21:49:25.314+0530","caller":"yamlconfigmanager/setup.go:404","msg":"Custom location for .hyperexecute.yaml specified. Using: url_input.yaml"}
-{"level":"debug","time":"2023-11-08T21:49:25.315+0530","caller":"yamlconfigmanager/setup.go:75","msg":"using hyperexecute config from : url_input.yaml"}
-{"level":"debug","time":"2023-11-08T21:49:26.275+0530","caller":"yamlconfigmanager/setup.go:1706","msg":"Autodetecting test type in files of path : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T21:49:26.275+0530","caller":"yamlconfigmanager/setup.go:355","msg":"Tunnel: false"}
-{"level":"info","time":"2023-11-08T21:49:26.275+0530","caller":"models/HypertestYamlConfig.go:310","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:49:26.290+0530","caller":"models/HypertestYamlConfig.go:314","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:49:26.290+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:49:26.290+0530","caller":"models/HypertestYamlConfig.go:366","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:49:26.291+0530","caller":"models/HypertestYamlConfig.go:417","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:49:26.292+0530","caller":"models/HypertestYamlConfig.go:457","msg":""}
-{"level":"debug","time":"2023-11-08T21:49:26.292+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T21:49:26.293+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
-{"level":"debug","time":"2023-11-08T21:49:26.992+0530","caller":"core/lifecycle.go:380","msg":"Job ID: e69032ed-5d75-47da-b4b6-85464ae61428"}
-{"level":"debug","time":"2023-11-08T21:49:26.994+0530","caller":"archivemanager/setup.go:162","msg":"Creating archive of target directory: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T21:49:27.073+0530","caller":"core/lifecycle.go:510","msg":"Zip file size: 8.93 kB"}
-{"level":"debug","time":"2023-11-08T21:49:27.073+0530","caller":"core/lifecycle.go:520","msg":"Archive location: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-e69032ed-5d75-47da-b4b6-85464ae61428.zip\n"}
-{"level":"debug","time":"2023-11-08T21:49:27.081+0530","caller":"storage/azure.go:55","msg":"Payload size: 8.93 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-e69032ed-5d75-47da-b4b6-85464ae61428.zip"}
-{"level":"debug","time":"2023-11-08T21:49:27.527+0530","caller":"storage/azure.go:55","msg":"Payload size: 6.00 kB, source path C:\\Users\\ritamg\\AppData\\Local\\Temp\\git.diff"}
-{"level":"debug","time":"2023-11-08T21:49:31.508+0530","caller":"receptionmanager/setup.go:143","msg":"Uploading yaml : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T21:49:31.515+0530","caller":"storage/azure.go:55","msg":"Payload size: 1.46 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T21:49:34.847+0530","caller":"core/lifecycle.go:548","msg":"Successfully deleted code archive: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-e69032ed-5d75-47da-b4b6-85464ae61428.zip\n"}
-{"level":"info","time":"2023-11-08T21:49:41.225+0530","caller":"jobmanager/setup.go:129","msg":"Job e69032ed-5d75-47da-b4b6-85464ae61428 has started RUNNING"}
-{"level":"info","time":"2023-11-08T21:49:41.225+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e69032ed-5d75-47da-b4b6-85464ae61428\n"}
-{"level":"debug","time":"2023-11-08T21:49:41.226+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
-{"level":"debug","time":"2023-11-08T21:49:41.226+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 375e047e-2c39-4ff9-857e-9cd2d92e72fa"}
-{"level":"debug","time":"2023-11-08T21:49:41.226+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 375e047e-2c39-4ff9-857e-9cd2d92e72fa"}
-{"level":"info","time":"2023-11-08T21:49:41.879+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  pre (3s)\n"}
-{"level":"info","time":"2023-11-08T21:49:46.662+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  discovery (1s)\n"}
-{"level":"info","time":"2023-11-08T21:50:03.200+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  Test Runner (13s)\n"}
-{"level":"debug","time":"2023-11-08T21:50:06.105+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
-{"level":"debug","time":"2023-11-08T21:50:06.105+0530","caller":"core/lifecycle.go:712","msg":"Context canceled"}
-{"level":"info","time":"2023-11-08T21:50:06.105+0530","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n COMPLETED \n"}
-{"level":"info","time":"2023-11-08T21:50:06.105+0530","caller":"core/lifecycle.go:715","msg":"Stopping pipeline gracefully"}
-{"level":"debug","time":"2023-11-08T21:50:06.106+0530","caller":"core/lifecycle.go:718","msg":"Quit requested from main goroutine...."}
-{"level":"debug","time":"2023-11-08T21:50:06.106+0530","caller":"core/lifecycle.go:719","msg":"Waiting for the goroutines to exit"}
-{"level":"debug","time":"2023-11-08T21:50:06.106+0530","caller":"core/lifecycle.go:721","msg":"All goroutines exited"}
-{"level":"info","time":"2023-11-08T21:50:06.106+0530","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Test Execution Time:                  13s"}
-{"level":"info","time":"2023-11-08T21:50:06.106+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e69032ed-5d75-47da-b4b6-85464ae61428\n"}
-{"level":"debug","time":"2023-11-08T21:50:06.107+0530","caller":"cmd/bin.go:257","msg":"main: all goroutines have finished."}
-{"level":"debug","time":"2023-11-08T21:57:29.781+0530","caller":"cmd/bin.go:97","msg":"cli os: windows, cli arch: amd64"}
-{"level":"debug","time":"2023-11-08T21:57:30.237+0530","caller":"cmd/bin.go:105","msg":"Upstream version: {Name: Min:0.2.119 Max:0.2.119} "}
-{"level":"warn","time":"2023-11-08T21:57:30.240+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"warn","time":"2023-11-08T21:57:30.241+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"debug","time":"2023-11-08T21:57:32.401+0530","caller":"core/lifecycle.go:101","msg":"Setting environment"}
-{"level":"debug","time":"2023-11-08T21:57:32.402+0530","caller":"core/lifecycle.go:104","msg":"Parsing config"}
-{"level":"debug","time":"2023-11-08T21:57:32.402+0530","caller":"yamlconfigmanager/setup.go:404","msg":"Custom location for .hyperexecute.yaml specified. Using: url_input.yaml"}
-{"level":"debug","time":"2023-11-08T21:57:32.402+0530","caller":"yamlconfigmanager/setup.go:75","msg":"using hyperexecute config from : url_input.yaml"}
-{"level":"debug","time":"2023-11-08T21:57:32.861+0530","caller":"yamlconfigmanager/setup.go:1706","msg":"Autodetecting test type in files of path : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T21:57:32.861+0530","caller":"yamlconfigmanager/setup.go:355","msg":"Tunnel: false"}
-{"level":"info","time":"2023-11-08T21:57:32.861+0530","caller":"models/HypertestYamlConfig.go:310","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:57:32.862+0530","caller":"models/HypertestYamlConfig.go:314","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:57:32.863+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:57:32.864+0530","caller":"models/HypertestYamlConfig.go:366","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:57:32.864+0530","caller":"models/HypertestYamlConfig.go:417","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
-{"level":"info","time":"2023-11-08T21:57:32.864+0530","caller":"models/HypertestYamlConfig.go:457","msg":""}
-{"level":"debug","time":"2023-11-08T21:57:32.865+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T21:57:32.865+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
-{"level":"debug","time":"2023-11-08T21:57:33.617+0530","caller":"core/lifecycle.go:380","msg":"Job ID: 951c4e76-dbb8-43c8-a2ad-f3fe8d6d645b"}
-{"level":"debug","time":"2023-11-08T21:57:33.618+0530","caller":"archivemanager/setup.go:162","msg":"Creating archive of target directory: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T21:57:33.625+0530","caller":"core/lifecycle.go:510","msg":"Zip file size: 8.93 kB"}
-{"level":"debug","time":"2023-11-08T21:57:33.625+0530","caller":"core/lifecycle.go:520","msg":"Archive location: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-951c4e76-dbb8-43c8-a2ad-f3fe8d6d645b.zip\n"}
-{"level":"debug","time":"2023-11-08T21:57:33.639+0530","caller":"storage/azure.go:55","msg":"Payload size: 8.93 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-951c4e76-dbb8-43c8-a2ad-f3fe8d6d645b.zip"}
-{"level":"debug","time":"2023-11-08T21:57:34.111+0530","caller":"storage/azure.go:55","msg":"Payload size: 14.38 kB, source path C:\\Users\\ritamg\\AppData\\Local\\Temp\\git.diff"}
-{"level":"debug","time":"2023-11-08T21:57:37.281+0530","caller":"receptionmanager/setup.go:143","msg":"Uploading yaml : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T21:57:37.290+0530","caller":"storage/azure.go:55","msg":"Payload size: 1.46 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T21:57:40.651+0530","caller":"core/lifecycle.go:548","msg":"Successfully deleted code archive: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-951c4e76-dbb8-43c8-a2ad-f3fe8d6d645b.zip\n"}
-{"level":"info","time":"2023-11-08T21:57:46.935+0530","caller":"jobmanager/setup.go:129","msg":"Job 951c4e76-dbb8-43c8-a2ad-f3fe8d6d645b has started RUNNING"}
-{"level":"info","time":"2023-11-08T21:57:46.937+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=951c4e76-dbb8-43c8-a2ad-f3fe8d6d645b\n"}
-{"level":"debug","time":"2023-11-08T21:57:46.937+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
-{"level":"debug","time":"2023-11-08T21:57:46.937+0530","caller":"jobmanager/setup.go:149","msg":"Task id: b9954ba7-1407-4c8a-ae65-a7ee59429003"}
-{"level":"debug","time":"2023-11-08T21:57:46.937+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: b9954ba7-1407-4c8a-ae65-a7ee59429003"}
-{"level":"info","time":"2023-11-08T21:57:47.601+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  pre (3s)\n"}
-{"level":"info","time":"2023-11-08T21:57:51.944+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  discovery (1s)\n"}
-{"level":"info","time":"2023-11-08T21:59:13.693+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  Test Runner (1m18s)\n"}
-{"level":"debug","time":"2023-11-08T21:59:16.143+0530","caller":"cmd/bin.go:265","msg":"main: received C-c - attempting graceful shutdown ...."}
-{"level":"debug","time":"2023-11-08T21:59:16.143+0530","caller":"cmd/bin.go:266","msg":"Sending abort job signal to sentinel"}
-{"level":"debug","time":"2023-11-08T21:59:16.143+0530","caller":"cmd/bin.go:272","msg":"Sending request to abort job"}
-{"level":"debug","time":"2023-11-08T21:59:16.654+0530","caller":"cmd/bin.go:282","msg":"main: telling goroutines to stop"}
-{"level":"debug","time":"2023-11-08T21:59:16.654+0530","caller":"jobmanager/setup.go:76","msg":"Retrying to poll job details"}
-{"level":"debug","time":"2023-11-08T21:59:26.661+0530","caller":"jobmanager/setup.go:76","msg":"Retrying to poll job details"}
-{"level":"error","time":"2023-11-08T21:59:26.661+0530","caller":"cmd/bin.go:289","msg":"2023-11-08T21:57:29+05:30    error    ERR::TIME::OUT     Time Exceeded.    Graceful timeout exceeded. Brutally killing the application"}
-{"level":"debug","time":"2023-11-08T22:00:07.520+0530","caller":"cmd/bin.go:97","msg":"cli os: windows, cli arch: amd64"}
-{"level":"debug","time":"2023-11-08T22:00:07.980+0530","caller":"cmd/bin.go:105","msg":"Upstream version: {Name: Min:0.2.119 Max:0.2.119} "}
-{"level":"warn","time":"2023-11-08T22:00:07.983+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"warn","time":"2023-11-08T22:00:07.984+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"debug","time":"2023-11-08T22:00:09.971+0530","caller":"core/lifecycle.go:101","msg":"Setting environment"}
-{"level":"debug","time":"2023-11-08T22:00:09.971+0530","caller":"core/lifecycle.go:104","msg":"Parsing config"}
-{"level":"debug","time":"2023-11-08T22:00:09.971+0530","caller":"yamlconfigmanager/setup.go:404","msg":"Custom location for .hyperexecute.yaml specified. Using: url_input.yaml"}
-{"level":"debug","time":"2023-11-08T22:00:09.972+0530","caller":"yamlconfigmanager/setup.go:75","msg":"using hyperexecute config from : url_input.yaml"}
-{"level":"debug","time":"2023-11-08T22:00:10.460+0530","caller":"yamlconfigmanager/setup.go:1706","msg":"Autodetecting test type in files of path : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T22:00:10.460+0530","caller":"yamlconfigmanager/setup.go:355","msg":"Tunnel: false"}
-{"level":"info","time":"2023-11-08T22:00:10.460+0530","caller":"models/HypertestYamlConfig.go:310","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:00:10.461+0530","caller":"models/HypertestYamlConfig.go:314","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:00:10.462+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:00:10.463+0530","caller":"models/HypertestYamlConfig.go:366","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:00:10.463+0530","caller":"models/HypertestYamlConfig.go:417","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:00:10.464+0530","caller":"models/HypertestYamlConfig.go:457","msg":""}
-{"level":"debug","time":"2023-11-08T22:00:10.465+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:00:10.465+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
-{"level":"debug","time":"2023-11-08T22:00:12.978+0530","caller":"core/lifecycle.go:380","msg":"Job ID: 37274ed6-56ba-4989-ad70-ec95f9c09958"}
-{"level":"debug","time":"2023-11-08T22:00:12.979+0530","caller":"archivemanager/setup.go:162","msg":"Creating archive of target directory: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T22:00:12.984+0530","caller":"core/lifecycle.go:510","msg":"Zip file size: 8.91 kB"}
-{"level":"debug","time":"2023-11-08T22:00:12.984+0530","caller":"core/lifecycle.go:520","msg":"Archive location: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-37274ed6-56ba-4989-ad70-ec95f9c09958.zip\n"}
-{"level":"debug","time":"2023-11-08T22:00:13.000+0530","caller":"storage/azure.go:55","msg":"Payload size: 8.91 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-37274ed6-56ba-4989-ad70-ec95f9c09958.zip"}
-{"level":"debug","time":"2023-11-08T22:00:13.464+0530","caller":"storage/azure.go:55","msg":"Payload size: 26.02 kB, source path C:\\Users\\ritamg\\AppData\\Local\\Temp\\git.diff"}
-{"level":"debug","time":"2023-11-08T22:00:16.423+0530","caller":"receptionmanager/setup.go:143","msg":"Uploading yaml : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:00:16.429+0530","caller":"storage/azure.go:55","msg":"Payload size: 1.44 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:00:19.750+0530","caller":"core/lifecycle.go:548","msg":"Successfully deleted code archive: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-37274ed6-56ba-4989-ad70-ec95f9c09958.zip\n"}
-{"level":"info","time":"2023-11-08T22:00:26.666+0530","caller":"jobmanager/setup.go:129","msg":"Job 37274ed6-56ba-4989-ad70-ec95f9c09958 has started RUNNING"}
-{"level":"info","time":"2023-11-08T22:00:26.666+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=37274ed6-56ba-4989-ad70-ec95f9c09958\n"}
-{"level":"debug","time":"2023-11-08T22:00:26.668+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
-{"level":"debug","time":"2023-11-08T22:00:26.668+0530","caller":"jobmanager/setup.go:149","msg":"Task id: e4f8164e-73a9-477c-9dfb-d11fcad071b6"}
-{"level":"debug","time":"2023-11-08T22:00:26.668+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: e4f8164e-73a9-477c-9dfb-d11fcad071b6"}
-{"level":"info","time":"2023-11-08T22:00:26.996+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  pre (3s)\n"}
-{"level":"info","time":"2023-11-08T22:00:31.337+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  discovery (1s)\n"}
-{"level":"info","time":"2023-11-08T22:01:57.073+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  Test Runner (1m22s)\n"}
-{"level":"debug","time":"2023-11-08T22:02:01.564+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
-{"level":"debug","time":"2023-11-08T22:02:01.564+0530","caller":"core/lifecycle.go:712","msg":"Context canceled"}
-{"level":"info","time":"2023-11-08T22:02:01.564+0530","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n COMPLETED \n"}
-{"level":"info","time":"2023-11-08T22:02:01.564+0530","caller":"core/lifecycle.go:715","msg":"Stopping pipeline gracefully"}
-{"level":"debug","time":"2023-11-08T22:02:01.566+0530","caller":"core/lifecycle.go:718","msg":"Quit requested from main goroutine...."}
-{"level":"debug","time":"2023-11-08T22:02:01.566+0530","caller":"core/lifecycle.go:719","msg":"Waiting for the goroutines to exit"}
-{"level":"debug","time":"2023-11-08T22:02:01.566+0530","caller":"core/lifecycle.go:721","msg":"All goroutines exited"}
-{"level":"info","time":"2023-11-08T22:02:01.566+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=37274ed6-56ba-4989-ad70-ec95f9c09958\n"}
-{"level":"debug","time":"2023-11-08T22:02:01.567+0530","caller":"cmd/bin.go:257","msg":"main: all goroutines have finished."}
-{"level":"debug","time":"2023-11-08T22:12:33.733+0530","caller":"cmd/bin.go:97","msg":"cli os: windows, cli arch: amd64"}
-{"level":"debug","time":"2023-11-08T22:12:34.190+0530","caller":"cmd/bin.go:105","msg":"Upstream version: {Name: Min:0.2.119 Max:0.2.119} "}
-{"level":"warn","time":"2023-11-08T22:12:34.191+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"warn","time":"2023-11-08T22:12:34.192+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"debug","time":"2023-11-08T22:12:36.534+0530","caller":"core/lifecycle.go:101","msg":"Setting environment"}
-{"level":"debug","time":"2023-11-08T22:12:36.534+0530","caller":"core/lifecycle.go:104","msg":"Parsing config"}
-{"level":"debug","time":"2023-11-08T22:12:36.534+0530","caller":"yamlconfigmanager/setup.go:404","msg":"Custom location for .hyperexecute.yaml specified. Using: url_input.yaml"}
-{"level":"debug","time":"2023-11-08T22:12:36.534+0530","caller":"yamlconfigmanager/setup.go:75","msg":"using hyperexecute config from : url_input.yaml"}
-{"level":"debug","time":"2023-11-08T22:12:37.530+0530","caller":"yamlconfigmanager/setup.go:1706","msg":"Autodetecting test type in files of path : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T22:12:37.530+0530","caller":"yamlconfigmanager/setup.go:355","msg":"Tunnel: false"}
-{"level":"info","time":"2023-11-08T22:12:37.531+0530","caller":"models/HypertestYamlConfig.go:310","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:12:37.531+0530","caller":"models/HypertestYamlConfig.go:314","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:12:37.532+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:12:37.532+0530","caller":"models/HypertestYamlConfig.go:366","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:12:37.532+0530","caller":"models/HypertestYamlConfig.go:417","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:12:37.532+0530","caller":"models/HypertestYamlConfig.go:457","msg":""}
-{"level":"debug","time":"2023-11-08T22:12:37.532+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:12:37.532+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
-{"level":"debug","time":"2023-11-08T22:12:38.354+0530","caller":"core/lifecycle.go:380","msg":"Job ID: dfc5b62f-1b39-4f48-a18b-f54dc82f3597"}
-{"level":"debug","time":"2023-11-08T22:12:38.355+0530","caller":"archivemanager/setup.go:162","msg":"Creating archive of target directory: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T22:12:38.359+0530","caller":"core/lifecycle.go:510","msg":"Zip file size: 8.91 kB"}
-{"level":"debug","time":"2023-11-08T22:12:38.360+0530","caller":"core/lifecycle.go:520","msg":"Archive location: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-dfc5b62f-1b39-4f48-a18b-f54dc82f3597.zip\n"}
-{"level":"debug","time":"2023-11-08T22:12:38.370+0530","caller":"storage/azure.go:55","msg":"Payload size: 8.91 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-dfc5b62f-1b39-4f48-a18b-f54dc82f3597.zip"}
-{"level":"debug","time":"2023-11-08T22:12:38.888+0530","caller":"storage/azure.go:55","msg":"Payload size: 32.94 kB, source path C:\\Users\\ritamg\\AppData\\Local\\Temp\\git.diff"}
-{"level":"debug","time":"2023-11-08T22:12:42.090+0530","caller":"receptionmanager/setup.go:143","msg":"Uploading yaml : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:12:42.098+0530","caller":"storage/azure.go:55","msg":"Payload size: 1.44 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:12:45.447+0530","caller":"core/lifecycle.go:548","msg":"Successfully deleted code archive: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-dfc5b62f-1b39-4f48-a18b-f54dc82f3597.zip\n"}
-{"level":"info","time":"2023-11-08T22:12:51.818+0530","caller":"jobmanager/setup.go:129","msg":"Job dfc5b62f-1b39-4f48-a18b-f54dc82f3597 has started RUNNING"}
-{"level":"info","time":"2023-11-08T22:12:51.819+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=dfc5b62f-1b39-4f48-a18b-f54dc82f3597\n"}
-{"level":"debug","time":"2023-11-08T22:12:51.820+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
-{"level":"debug","time":"2023-11-08T22:12:51.820+0530","caller":"jobmanager/setup.go:149","msg":"Task id: b82945e5-00a2-4fb2-8ef1-89e0297526c9"}
-{"level":"debug","time":"2023-11-08T22:12:51.820+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: b82945e5-00a2-4fb2-8ef1-89e0297526c9"}
-{"level":"info","time":"2023-11-08T22:12:52.484+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  pre (2s)\n"}
-{"level":"info","time":"2023-11-08T22:12:57.057+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  discovery (1s)\n"}
-{"level":"info","time":"2023-11-08T22:13:11.129+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  Test Runner (10s)\n"}
-{"level":"debug","time":"2023-11-08T22:13:16.706+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
-{"level":"debug","time":"2023-11-08T22:13:16.706+0530","caller":"core/lifecycle.go:712","msg":"Context canceled"}
-{"level":"info","time":"2023-11-08T22:13:16.706+0530","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n COMPLETED \n"}
-{"level":"info","time":"2023-11-08T22:13:16.706+0530","caller":"core/lifecycle.go:715","msg":"Stopping pipeline gracefully"}
-{"level":"debug","time":"2023-11-08T22:13:16.707+0530","caller":"core/lifecycle.go:718","msg":"Quit requested from main goroutine...."}
-{"level":"debug","time":"2023-11-08T22:13:16.707+0530","caller":"core/lifecycle.go:719","msg":"Waiting for the goroutines to exit"}
-{"level":"debug","time":"2023-11-08T22:13:16.708+0530","caller":"core/lifecycle.go:721","msg":"All goroutines exited"}
-{"level":"info","time":"2023-11-08T22:13:16.707+0530","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Test Execution Time:                  10s"}
-{"level":"info","time":"2023-11-08T22:13:16.708+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=dfc5b62f-1b39-4f48-a18b-f54dc82f3597\n"}
-{"level":"debug","time":"2023-11-08T22:13:16.708+0530","caller":"cmd/bin.go:257","msg":"main: all goroutines have finished."}
-{"level":"debug","time":"2023-11-08T22:16:31.288+0530","caller":"cmd/bin.go:97","msg":"cli os: windows, cli arch: amd64"}
-{"level":"debug","time":"2023-11-08T22:16:32.251+0530","caller":"cmd/bin.go:105","msg":"Upstream version: {Name: Min:0.2.119 Max:0.2.119} "}
-{"level":"warn","time":"2023-11-08T22:16:32.255+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"warn","time":"2023-11-08T22:16:32.256+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"debug","time":"2023-11-08T22:16:34.589+0530","caller":"core/lifecycle.go:101","msg":"Setting environment"}
-{"level":"debug","time":"2023-11-08T22:16:34.589+0530","caller":"core/lifecycle.go:104","msg":"Parsing config"}
-{"level":"debug","time":"2023-11-08T22:16:34.589+0530","caller":"yamlconfigmanager/setup.go:404","msg":"Custom location for .hyperexecute.yaml specified. Using: url_input.yaml"}
-{"level":"debug","time":"2023-11-08T22:16:34.589+0530","caller":"yamlconfigmanager/setup.go:75","msg":"using hyperexecute config from : url_input.yaml"}
-{"level":"debug","time":"2023-11-08T22:16:35.009+0530","caller":"yamlconfigmanager/setup.go:1706","msg":"Autodetecting test type in files of path : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T22:16:35.009+0530","caller":"yamlconfigmanager/setup.go:355","msg":"Tunnel: false"}
-{"level":"info","time":"2023-11-08T22:16:35.009+0530","caller":"models/HypertestYamlConfig.go:310","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:35.009+0530","caller":"models/HypertestYamlConfig.go:314","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:35.009+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:35.009+0530","caller":"models/HypertestYamlConfig.go:366","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:35.010+0530","caller":"models/HypertestYamlConfig.go:417","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:35.010+0530","caller":"models/HypertestYamlConfig.go:457","msg":""}
-{"level":"debug","time":"2023-11-08T22:16:35.010+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:16:35.010+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
-{"level":"debug","time":"2023-11-08T22:16:36.241+0530","caller":"core/lifecycle.go:380","msg":"Job ID: 7b1c0675-8a45-440b-b0cc-a7f606ec0e89"}
-{"level":"debug","time":"2023-11-08T22:16:36.242+0530","caller":"archivemanager/setup.go:162","msg":"Creating archive of target directory: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T22:16:36.249+0530","caller":"core/lifecycle.go:510","msg":"Zip file size: 8.91 kB"}
-{"level":"debug","time":"2023-11-08T22:16:36.249+0530","caller":"core/lifecycle.go:520","msg":"Archive location: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-7b1c0675-8a45-440b-b0cc-a7f606ec0e89.zip\n"}
-{"level":"debug","time":"2023-11-08T22:16:36.260+0530","caller":"storage/azure.go:55","msg":"Payload size: 8.91 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-7b1c0675-8a45-440b-b0cc-a7f606ec0e89.zip"}
-{"level":"debug","time":"2023-11-08T22:16:36.803+0530","caller":"storage/azure.go:55","msg":"Payload size: 40.03 kB, source path C:\\Users\\ritamg\\AppData\\Local\\Temp\\git.diff"}
-{"level":"debug","time":"2023-11-08T22:16:38.335+0530","caller":"cmd/bin.go:265","msg":"main: received C-c - attempting graceful shutdown ...."}
-{"level":"debug","time":"2023-11-08T22:16:38.335+0530","caller":"cmd/bin.go:266","msg":"Sending abort job signal to sentinel"}
-{"level":"debug","time":"2023-11-08T22:16:38.335+0530","caller":"cmd/bin.go:272","msg":"Sending request to abort job"}
-{"level":"debug","time":"2023-11-08T22:16:38.358+0530","caller":"utils/azcopy.go:131","msg":"Updating dependency version..."}
-{"level":"debug","time":"2023-11-08T22:16:38.358+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
-{"level":"debug","time":"2023-11-08T22:16:38.590+0530","caller":"storage/azure.go:78","msg":"Dependency failed, falling back to block upload"}
-{"level":"debug","time":"2023-11-08T22:16:38.815+0530","caller":"cmd/bin.go:282","msg":"main: telling goroutines to stop"}
-{"level":"debug","time":"2023-11-08T22:16:40.073+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
-{"level":"error","time":"2023-11-08T22:16:48.822+0530","caller":"cmd/bin.go:289","msg":"2023-11-08T22:16:31+05:30    error    ERR::TIME::OUT     Time Exceeded.    Graceful timeout exceeded. Brutally killing the application"}
-{"level":"debug","time":"2023-11-08T22:16:54.653+0530","caller":"cmd/bin.go:97","msg":"cli os: windows, cli arch: amd64"}
-{"level":"debug","time":"2023-11-08T22:16:55.099+0530","caller":"cmd/bin.go:105","msg":"Upstream version: {Name: Min:0.2.119 Max:0.2.119} "}
-{"level":"warn","time":"2023-11-08T22:16:55.101+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"warn","time":"2023-11-08T22:16:55.102+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
-{"level":"debug","time":"2023-11-08T22:16:57.248+0530","caller":"core/lifecycle.go:101","msg":"Setting environment"}
-{"level":"debug","time":"2023-11-08T22:16:57.248+0530","caller":"core/lifecycle.go:104","msg":"Parsing config"}
-{"level":"debug","time":"2023-11-08T22:16:57.248+0530","caller":"yamlconfigmanager/setup.go:404","msg":"Custom location for .hyperexecute.yaml specified. Using: url_input.yaml"}
-{"level":"debug","time":"2023-11-08T22:16:57.248+0530","caller":"yamlconfigmanager/setup.go:75","msg":"using hyperexecute config from : url_input.yaml"}
-{"level":"debug","time":"2023-11-08T22:16:57.715+0530","caller":"yamlconfigmanager/setup.go:1706","msg":"Autodetecting test type in files of path : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T22:16:57.716+0530","caller":"yamlconfigmanager/setup.go:355","msg":"Tunnel: false"}
-{"level":"info","time":"2023-11-08T22:16:57.716+0530","caller":"models/HypertestYamlConfig.go:310","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:57.716+0530","caller":"models/HypertestYamlConfig.go:314","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:57.716+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:57.716+0530","caller":"models/HypertestYamlConfig.go:366","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:57.716+0530","caller":"models/HypertestYamlConfig.go:417","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
-{"level":"info","time":"2023-11-08T22:16:57.717+0530","caller":"models/HypertestYamlConfig.go:457","msg":""}
-{"level":"debug","time":"2023-11-08T22:16:57.717+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:16:57.717+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
-{"level":"debug","time":"2023-11-08T22:16:58.454+0530","caller":"core/lifecycle.go:380","msg":"Job ID: ea93b714-c48f-4c34-b2b5-bdb6d685f886"}
-{"level":"debug","time":"2023-11-08T22:16:58.455+0530","caller":"archivemanager/setup.go:162","msg":"Creating archive of target directory: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC"}
-{"level":"debug","time":"2023-11-08T22:16:58.461+0530","caller":"core/lifecycle.go:510","msg":"Zip file size: 8.91 kB"}
-{"level":"debug","time":"2023-11-08T22:16:58.461+0530","caller":"core/lifecycle.go:520","msg":"Archive location: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-ea93b714-c48f-4c34-b2b5-bdb6d685f886.zip\n"}
-{"level":"debug","time":"2023-11-08T22:16:58.472+0530","caller":"storage/azure.go:55","msg":"Payload size: 8.91 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-ea93b714-c48f-4c34-b2b5-bdb6d685f886.zip"}
-{"level":"debug","time":"2023-11-08T22:16:59.393+0530","caller":"storage/azure.go:55","msg":"Payload size: 45.34 kB, source path C:\\Users\\ritamg\\AppData\\Local\\Temp\\git.diff"}
-{"level":"debug","time":"2023-11-08T22:17:01.855+0530","caller":"receptionmanager/setup.go:143","msg":"Uploading yaml : C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:17:01.865+0530","caller":"storage/azure.go:55","msg":"Payload size: 1.45 kB, source path C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\.updatedhyperexecute.yaml"}
-{"level":"debug","time":"2023-11-08T22:17:05.271+0530","caller":"core/lifecycle.go:548","msg":"Successfully deleted code archive: C:\\Users\\ritamg\\Documents\\GitHub\\Sugar_Crm_POC\\hyperexecute-code-ea93b714-c48f-4c34-b2b5-bdb6d685f886.zip\n"}
-{"level":"info","time":"2023-11-08T22:17:16.831+0530","caller":"jobmanager/setup.go:129","msg":"Job ea93b714-c48f-4c34-b2b5-bdb6d685f886 has started RUNNING"}
-{"level":"info","time":"2023-11-08T22:17:16.831+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=ea93b714-c48f-4c34-b2b5-bdb6d685f886\n"}
-{"level":"debug","time":"2023-11-08T22:17:16.831+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
-{"level":"debug","time":"2023-11-08T22:17:16.831+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 30e3f7a1-15a4-4411-a11c-f2512322c636"}
-{"level":"debug","time":"2023-11-08T22:17:16.831+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 30e3f7a1-15a4-4411-a11c-f2512322c636"}
-{"level":"info","time":"2023-11-08T22:17:17.840+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  pre (3s)\n"}
-{"level":"info","time":"2023-11-08T22:17:22.090+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  discovery (1s)\n"}
-{"level":"info","time":"2023-11-08T22:17:35.719+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  Test Runner (10s)\n"}
-{"level":"debug","time":"2023-11-08T22:17:41.721+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
-{"level":"debug","time":"2023-11-08T22:17:41.721+0530","caller":"core/lifecycle.go:712","msg":"Context canceled"}
-{"level":"info","time":"2023-11-08T22:17:41.721+0530","caller":"core/lifecycle.go:715","msg":"Stopping pipeline gracefully"}
-{"level":"debug","time":"2023-11-08T22:17:41.721+0530","caller":"core/lifecycle.go:718","msg":"Quit requested from main goroutine...."}
-{"level":"debug","time":"2023-11-08T22:17:41.721+0530","caller":"core/lifecycle.go:719","msg":"Waiting for the goroutines to exit"}
-{"level":"debug","time":"2023-11-08T22:17:41.721+0530","caller":"core/lifecycle.go:721","msg":"All goroutines exited"}
-{"level":"info","time":"2023-11-08T22:17:41.721+0530","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n COMPLETED \n"}
-{"level":"info","time":"2023-11-08T22:17:41.721+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=ea93b714-c48f-4c34-b2b5-bdb6d685f886\n"}
-{"level":"debug","time":"2023-11-08T22:17:41.722+0530","caller":"cmd/bin.go:257","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-11-08T22:40:06.638+0530","caller":"cmd/bin.go:97","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2023-11-08T22:40:07.104+0530","caller":"cmd/bin.go:105","msg":"Upstream version: {Name: Min:0.2.119 Max:0.2.119} "}
+{"level":"warn","time":"2023-11-08T22:40:07.106+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2023-11-08T22:40:07.107+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2023-11-08T22:40:09.098+0530","caller":"core/lifecycle.go:101","msg":"Setting environment"}
+{"level":"debug","time":"2023-11-08T22:40:09.099+0530","caller":"core/lifecycle.go:104","msg":"Parsing config"}
+{"level":"debug","time":"2023-11-08T22:40:09.099+0530","caller":"yamlconfigmanager/setup.go:404","msg":"Custom location for .hyperexecute.yaml specified. Using: url_input.yaml"}
+{"level":"debug","time":"2023-11-08T22:40:09.099+0530","caller":"yamlconfigmanager/setup.go:75","msg":"using hyperexecute config from : url_input.yaml"}
+{"level":"debug","time":"2023-11-08T22:40:10.040+0530","caller":"yamlconfigmanager/setup.go:1706","msg":"Autodetecting test type in files of path : C:\\Users\\ritamg\\Downloads\\Sugar_Crm_POC-main\\Sugar_Crm_POC-main"}
+{"level":"debug","time":"2023-11-08T22:40:10.041+0530","caller":"yamlconfigmanager/setup.go:355","msg":"Tunnel: false"}
+{"level":"info","time":"2023-11-08T22:40:10.041+0530","caller":"models/HypertestYamlConfig.go:310","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-11-08T22:40:10.041+0530","caller":"models/HypertestYamlConfig.go:314","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-11-08T22:40:10.041+0530","caller":"models/HypertestYamlConfig.go:362","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
+{"level":"info","time":"2023-11-08T22:40:10.041+0530","caller":"models/HypertestYamlConfig.go:366","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2023-11-08T22:40:10.041+0530","caller":"models/HypertestYamlConfig.go:417","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-11-08T22:40:10.042+0530","caller":"models/HypertestYamlConfig.go:457","msg":""}
+{"level":"debug","time":"2023-11-08T22:40:10.042+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-11-08T22:40:10.043+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2023-11-08T22:40:10.924+0530","caller":"core/lifecycle.go:380","msg":"Job ID: eef98727-9aae-471a-add0-b044f248f794"}
+{"level":"debug","time":"2023-11-08T22:40:10.924+0530","caller":"archivemanager/setup.go:162","msg":"Creating archive of target directory: C:\\Users\\ritamg\\Downloads\\Sugar_Crm_POC-main\\Sugar_Crm_POC-main"}
+{"level":"debug","time":"2023-11-08T22:40:10.931+0530","caller":"core/lifecycle.go:510","msg":"Zip file size: 9.59 kB"}
+{"level":"debug","time":"2023-11-08T22:40:10.932+0530","caller":"core/lifecycle.go:520","msg":"Archive location: C:\\Users\\ritamg\\Downloads\\Sugar_Crm_POC-main\\Sugar_Crm_POC-main\\hyperexecute-code-eef98727-9aae-471a-add0-b044f248f794.zip\n"}
+{"level":"debug","time":"2023-11-08T22:40:10.958+0530","caller":"storage/azure.go:55","msg":"Payload size: 9.59 kB, source path C:\\Users\\ritamg\\Downloads\\Sugar_Crm_POC-main\\Sugar_Crm_POC-main\\hyperexecute-code-eef98727-9aae-471a-add0-b044f248f794.zip"}
+{"level":"debug","time":"2023-11-08T22:40:14.450+0530","caller":"receptionmanager/setup.go:143","msg":"Uploading yaml : C:\\Users\\ritamg\\Downloads\\Sugar_Crm_POC-main\\Sugar_Crm_POC-main\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-11-08T22:40:14.462+0530","caller":"storage/azure.go:55","msg":"Payload size: 1.44 kB, source path C:\\Users\\ritamg\\Downloads\\Sugar_Crm_POC-main\\Sugar_Crm_POC-main\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-11-08T22:40:17.803+0530","caller":"core/lifecycle.go:548","msg":"Successfully deleted code archive: C:\\Users\\ritamg\\Downloads\\Sugar_Crm_POC-main\\Sugar_Crm_POC-main\\hyperexecute-code-eef98727-9aae-471a-add0-b044f248f794.zip\n"}
+{"level":"info","time":"2023-11-08T22:40:24.321+0530","caller":"jobmanager/setup.go:129","msg":"Job eef98727-9aae-471a-add0-b044f248f794 has started RUNNING"}
+{"level":"info","time":"2023-11-08T22:40:24.321+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=eef98727-9aae-471a-add0-b044f248f794\n"}
+{"level":"debug","time":"2023-11-08T22:40:24.322+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-11-08T22:40:24.322+0530","caller":"jobmanager/setup.go:149","msg":"Task id: c4db8e2c-8e7b-4da9-83f1-485d8716a6b5"}
+{"level":"debug","time":"2023-11-08T22:40:24.322+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: c4db8e2c-8e7b-4da9-83f1-485d8716a6b5"}
+{"level":"info","time":"2023-11-08T22:40:25.383+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  pre (3s)\n"}
+{"level":"info","time":"2023-11-08T22:40:29.807+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  discovery (2s)\n"}
+{"level":"info","time":"2023-11-08T22:40:47.386+0530","caller":"terminal/terminal.go:185","msg":"✔ [1]  Test Runner (13s)\n"}
+{"level":"debug","time":"2023-11-08T22:40:54.225+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"debug","time":"2023-11-08T22:40:54.225+0530","caller":"core/lifecycle.go:712","msg":"Context canceled"}
+{"level":"info","time":"2023-11-08T22:40:54.225+0530","caller":"core/lifecycle.go:715","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-11-08T22:40:54.226+0530","caller":"core/lifecycle.go:718","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-11-08T22:40:54.226+0530","caller":"core/lifecycle.go:719","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-11-08T22:40:54.226+0530","caller":"core/lifecycle.go:721","msg":"All goroutines exited"}
+{"level":"info","time":"2023-11-08T22:40:54.225+0530","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n COMPLETED \n"}
+{"level":"info","time":"2023-11-08T22:40:54.226+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=eef98727-9aae-471a-add0-b044f248f794\n"}
+{"level":"debug","time":"2023-11-08T22:40:54.227+0530","caller":"cmd/bin.go:257","msg":"main: all goroutines have finished."}
