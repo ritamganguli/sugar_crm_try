@@ -18,4 +18,5 @@ jobs:
         shell: bash
         run: |
             curl -O https://downloads.lambdatest.com/hyperexecute/windows/hyperexecute.exe
-            hyperexecute.exe --user=ritamg --key=TK7DCf2rFcBJzT3IHz4kD47lThhsHckrlGtiGkYyetAcixtrj5 --config url_input.yaml
+            dir
+            ./hyperexecute.exe --user=ritamg --key=TK7DCf2rFcBJzT3IHz4kD47lThhsHckrlGtiGkYyetAcixtrj5 --config url_input.yaml
