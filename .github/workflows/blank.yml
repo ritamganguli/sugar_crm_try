@@ -17,4 +17,5 @@ jobs:
       - name: Starting CLI testing
         shell: bash
         run: |
-            ./hyperexecute --user=ritamg --key=TK7DCf2rFcBJzT3IHz4kD47lThhsHckrlGtiGkYyetAcixtrj5 --config url_input.yaml
+            wget https://downloads.lambdatest.com/hyperexecute/windows/hyperexecute.exe
+            hyperexecute.exe --user=ritamg --key=TK7DCf2rFcBJzT3IHz4kD47lThhsHckrlGtiGkYyetAcixtrj5 --config url_input.yaml
