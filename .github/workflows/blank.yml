@@ -1,4 +1,4 @@
-name: Hyperexecute-Cucumber
+name: Sugar-CRM-Demo
 on:
   workflow_dispatch:
     inputs:
@@ -9,11 +9,11 @@ on:
         description: LT Access Key
         required: true
       sampleRepoLink:
-        description: Link to the HyperExecute sample repo
-        default: https://github.com/prateekLambda/cucumber-selenium-hyperexecute-sample.git
-        required: true
+        description: Enter the web url
+        default: https://lambdatest.com
+        required: false
 jobs:
-  Cucumber-Sample-Hyperexeucte:
+  Sugar-CRM-POC:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 15
     strategy:
@@ -36,7 +36,5 @@ jobs:
               dir
               export LT_USERNAME=${{ github.event.inputs.username }}
               export LT_ACCESS_KEY=${{ github.event.inputs.accessKey }}
-              echo $LT_USERNAME
-              echo $LT_ACCESS_KEY
               ./hyperexecute --user $LT_USERNAME --key $LT_ACCESS_KEY --config url_input.yaml
               echo "Test completed"
