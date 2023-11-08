@@ -15,7 +15,6 @@ env:
  TARGET_OS: LINUX
 pre:
   - sudo apt-get install jq
-  - ls 
 
 mergeArtifacts: true
 scenarioCommandStatusOnly: true
