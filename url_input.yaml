@@ -23,6 +23,6 @@ testDiscovery:
   mode: dynamic
   command: echo "Test Runner"
 
-testRunnerCommand: sed -i -e 's/\r$//' url.sh && chmod u+x url.sh && ./url.sh -t c8ab8af7-6e96-4d6f-b2be-81db3fdb6a99 -gi 138889 --url "https://lambdatest.com"
+testRunnerCommand: sed -i -e 's/\r$//' url.sh && chmod u+x url.sh && ./url.sh -t 6056d205-b3de-4f93-ae97-beec8e22b371 -gi 138889 --url "https://lambdatest.com"
 
  
